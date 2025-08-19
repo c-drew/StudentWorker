@@ -16,7 +16,7 @@ flowchart
     cluster_etl_cluster[etl_cluster 6-12] --> etl_workflow
     click C call callback() "Tooltip for a callback"
     end
-    click etl_workflow_Extract href "https://www.github.com" "This is a tooltip for a link"
+    click etl_workflow_Extract href "https://github.com/amplify-education/python-hcl2/blob/main/hcl2/transformer.py#L15-L16" "This is a tooltip for a link"
     click cluster_etl_cluster call callback() "Tooltip for a callback"
 
 ```
